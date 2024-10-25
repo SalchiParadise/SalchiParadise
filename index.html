@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalchiParadise</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #000, #333);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-family: 'Verdana', sans-serif;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #444;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-top: 0;
+            color: #000;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .product {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .product h3 {
+            margin-top: 0;
+            color: #444;
+        }
+        .product p {
+            font-size: 1em;
+            color: #666;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        .about, .contact {
+            margin-top: 40px;
+        }
+        .cta {
+            background-color: #000;
+            color: #ffcc00;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .cta:hover {
+            background-color: #ffcc00;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SalchiParadise</h1>
+        <p>Prueba nuestras salchipapas e iras al paraiso.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Nuestros Productos</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenidos a SalchiParadise</h2>
+        <p>Tu nuevo paraíso de sabor, donde las mejores salchipapas te esperan.En SalchiParadise, transformamos un clásico en una experiencia única, llena de ingredientes frescos, salsas irresistibles y ese toque especial que nos hace diferentes. Cada bocado es un viaje al paraíso de las papas crujientes y las salchichas deliciosas.</p>
+        <p>¿Estás listo para probar la mejor salchipapa de tu vida?¡Déjate tentar y ven a descubrir lo que tenemos para ti!</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos Estrella</h2>
+
+        <div class="product">
+            <h3>Salchipapa Clásica</h3>
+            <p><strong>Precio:</strong> 20,000 COP</p>
+            <p>Descripción:Papas doradas con salchichas crujientes, servidas con salsa de tu elección.</p>
+        </div>
+
+        <div class="product">
+            <h3>Salchipapa Especial</h3>
+            <p><strong>Precio:</strong> 28,000 COP</p>
+            <p>Descripción: Agrega queso derretido, papa francesa, salchicha,papas fosforito,maiz y salsas al gusto</p>
+        </div>
+
+        <div class="product">
+            <h3>Salchipapa Picante</h3>
+            <p><strong>Precio:</strong> 24,000 COP</p>
+            <p>Descripción:  La combinación perfecta de salchichas y papas con salsa picante y jalapeños.</p>
+        </div>
+
+        <div class="product">
+            <h3>Mini Salchipapas</h3>
+            <p><strong>Precio:</strong> 16,000 COP</p>
+            <p>Descripción: Porciones pequeñas ideales para compartir o probar varios sabores a la vez.</p>
+        </div>
+
+        <div class="product">
+            <h3>Salchipapa Deluxe</h3>
+            <p><strong>Precio:</strong> 32,000 COP</p>
+            <p>Descripción:Una mezcla de salchichas variadas, toppings de tu elección y una lluvia de salsas.</p>
+        </div>
+
+        <div class="cta">
+            <p>¡Donde cada bocado te lleva al paraíso del sabor!</p>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros" class="about">
+        <h2>Conócenos</h2>
+        <p>En Salchiparadise, somos apasionados de la comida y la buena compañía. Nuestra misión es llevarte a un viaje gastronómico donde las salchipapas son las protagonistas. Desde nuestra fundación, nos hemos comprometido a ofrecerte un producto de calidad, utilizando ingredientes frescos y recetas que combinan tradición e innovación.</p>
+        <p>Nuestro equipo está formado por amantes de la cocina que creen que cada plato cuenta una historia. Aquí, no solo te servimos salchipapas, sino también una experiencia única en un ambiente acogedor y divertido. Ven a compartir risas y sabores con nosotros, ¡te esperamos en tu paraíso favorito!</p>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes alguna pregunta, sugerencia o simplemente quieres saber más sobre nosotros? ¡Estamos aquí para ayudarte!</p>
+        <ul>
+            <li><strong>Correo Electrónico:</strong> contacto@SalchiParadise.com</li>
+            <li><strong>Teléfono:</strong> +57 300 923 4567</li>
+            <li><strong>Dirección:</strong> Calle 123 #45-89, Bogotá, Colombia</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SalchiParadise - Con nuestras salchipapas iras al páraiso </p>
+    </footer>
+
+</body>
+</html>
